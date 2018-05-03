@@ -2,22 +2,14 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on('ready', function () {
-    console.log("M. BAD TAA EST CONNECTER !")
+    console.log("Salamat Pagi !")
+
 })
 bot.on('message', message => {
     if (message.content === '*ping') {
     message.reply('pong !') }
-    
-    else if (message.content === '*dodo') {
-        message.channel.send('Fais dodo, Colas mon p\'tit frère\n' +
-            'Fais dodo, t\'auras du lolo\n' +
-            'Maman est en haut\n' +
-            'Qui fait des gateaux\n' +
-            'Papa est en bas\n' +
-            'Qui fait du chocolat\n' +
-            'Fais dodo, Colas mon \'ptit frère\n' +
-            'Fais dodo, t\'auras du lolo') }
-    
+   
+
     else if (message.content === '*help') {
         message.channel.send('**Les commandes** : \n *ping : Pong ! \n *dodo : Comptine pour enfant \n *help : affiche les commandes \n *credit : pour les crédits \n *master : pour savoir qui est le maître ici ! \n *kill : pour tuer des gens ! \n *baguette \n *merci : pour dire merci au bot \n *bonjour : pour dire bonjour au bot\n *afk (on/off): pour se mettre afk ou pour retirer son afk \n *site : pour afficher le site \n*ah \n \n Bot créé par <@!317968962656796674> avec l\'aide de <@!385337893553438720>') }
     
