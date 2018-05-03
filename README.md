@@ -1,2 +1,1 @@
-# Shinonome-Nano-Bot
-Discord Bot
+# MBadTaa
