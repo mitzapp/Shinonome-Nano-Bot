@@ -1,2 +1,0 @@
-
-var userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf-8'));
