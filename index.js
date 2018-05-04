@@ -61,13 +61,13 @@ bot.on('message', message => {
     else if (message.content === 'Salut') {
     message.channel.send('Salamat Pagi !') }
 
-    else if (message.content === '!help') {
+    else if (message.content === 'Konichiwa !') {
     message.channel.send('Salamat Pagi !') }
     
     else if (message.content === '!help') {
-    message.channel.send('Excusez-moi mais, vous vous êtes trompé de prefix. 😅?\n Mon prefix est `\'` !') }
+    message.channel.send('Excusez-moi mais, vous vous êtes trompé de prefix. 😅 \n Mon prefix est `n.` !') }
 
-    else if (message.content === '\'help') {
+    else if (message.content === 'n.help') {
     message.channel.send('Salamat Pagi ! \nVoici mes commandes 😄 :\n\n`Salut !` : Vous repond avec le magnifique Salamat Pagi 😁\n`\'credits` : Vous donne le prenom de mon createur !') }
 })
 
